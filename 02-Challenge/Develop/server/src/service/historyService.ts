@@ -10,7 +10,7 @@ class City {
   name: string;
 
   constructor(name: string) {
-    this.id = uuidv4();
+    this.id = uuidv4(); // Assign a unique ID when the city is created
     this.name = name;
   }
 }

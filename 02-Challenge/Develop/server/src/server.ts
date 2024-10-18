@@ -1,11 +1,17 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import routes from './routes/index.js';
+
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+// Fix for ES module to get __dirname equivalent
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Serve static files from client/dist
 app.use(express.static(path.join(__dirname, '../client/dist')));

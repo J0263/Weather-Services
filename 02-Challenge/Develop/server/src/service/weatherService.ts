@@ -83,26 +83,14 @@ class WeatherService {
 export default new WeatherService();
 
 
-// // TODO: Complete the WeatherService class
-
-//   // TODO: Define the baseURL, API key, and city name properties
-//   // TODO: Create fetchLocationData method
-//   // TODO: Create destructureLocationData method
-
-//   // TODO: Create buildGeocodeQuery method
-
-//   // TODO: Create buildWeatherQuery method
-//  
-//   // TODO: Create fetchAndDestructureLocationData method
-
-//   // TODO: Create fetchWeatherData method
-
-//   // TODO: Build parseCurrentWeather method
-//   /
-//   // TODO: Complete buildForecastArray method
-//   
-//   // TODO: Complete getWeatherForCity method
-
-//   // Fetch weather data using coordinates
-// 
-//    
+// TODO: Complete the WeatherService class
+// TODO: Define the baseURL, API key, and city name properties
+// TODO: Create fetchLocationData method
+// TODO: Create destructureLocationData method
+// TODO: Create buildGeocodeQuery method
+// TODO: Create buildWeatherQuery method
+// TODO: Create fetchAndDestructureLocationData method
+// TODO: Create fetchWeatherData method
+// TODO: Build parseCurrentWeather method
+// TODO: Complete buildForecastArray method
+// TODO: Complete getWeatherForCity method
